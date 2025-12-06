@@ -1,0 +1,20 @@
+body{
+  padding: 25px;
+  background-color: lightyellow;
+}
+.title {
+	color: green;
+}
+.card1 {
+  position: sticky;
+  top: 8px;
+  background-color:orange;
+  height: 100px;
+  box-shadow: 0 4px 10px;
+}
+.card2 {
+  background-color: white;
+  width: 220px;
+  height: 450px;
+  box-shadow: 0 4px 10px;
+}
