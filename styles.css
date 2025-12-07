@@ -8,7 +8,7 @@ body{
 .card1 {
   position: sticky;
   top: 8px;
-  background-color:orange;
+  background-color: orange;
   height: 100px;
   box-shadow: 0 4px 10px;
 }
@@ -17,4 +17,28 @@ body{
   width: 220px;
   height: 450px;
   box-shadow: 0 4px 10px;
+  border-radius: 15px;
 }
+  .scroll-container {
+    width: 100%; /* Lebar container */
+    overflow-x: auto; /* Munculkan scrollbar horizontal */
+    white-space: nowrap; /* Mencegah gambar turun ke baris baru */
+    border: 1px solid #ccc; /* Garis pembatas */
+    padding: 10px;
+  }
+
+  .scroll-container img {
+    display: inline-block; /* Agar gambar berjajar horizontal */
+    height: 400px; /* Tinggi gambar */
+    width: auto; /* Lebar menyesuaikan tinggi */
+    margin-right: 10px; /* Spasi antar gambar */
+  }
+
+  /* Jika ingin gambar berukuran tetap dan bisa di-scroll */
+  /*
+  .scroll-container img {
+    display: inline-block;
+    width: 300px; // Lebar tetap
+    height: 200px;
+    margin-right: 10px;
+  }
